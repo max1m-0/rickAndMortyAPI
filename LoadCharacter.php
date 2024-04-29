@@ -17,7 +17,7 @@ if (count($idStringList) + $numberOfCharactersToAdd <= StaticVariablesUtil::getM
 } else {
     echo "<pre><h1>   Exception!". "</h1></pre><pre>  max number of characters is " . StaticVariablesUtil::getMaxNumberOfCharacters() .
         " tried to add  " . $numberOfCharactersToAdd . " characters to " . count($idStringList) . " characters </pre>";
-    $file = fopen('used_id_list.txt', 'w b');
+    $file = fopen('src\resources\used_id_list.txt', 'w b');
     fclose($file);
     $apiClient->closeSession();
 }

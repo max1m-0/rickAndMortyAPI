@@ -46,3 +46,16 @@ _testmain.go
 #*.png
 #*.jpeg
 *.psd
+/vendor/composer/autoload_classmap.php
+/vendor/composer/autoload_namespaces.php
+/vendor/composer/autoload_psr4.php
+/vendor/composer/autoload_real.php
+/vendor/composer/autoload_static.php
+/vendor/composer/ClassLoader.php
+/composer.json
+/composer.lock
+/vendor/composer/installed.json
+/vendor/composer/installed.php
+/vendor/composer/InstalledVersions.php
+/vendor/composer/LICENSE
+/used_id_list.txt
